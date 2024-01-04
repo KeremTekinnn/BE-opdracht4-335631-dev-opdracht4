@@ -1,0 +1,42 @@
+body {
+    font-family: Verdana;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+table {
+    border: 2px solid gray;
+    border-collapse: collapse;
+    margin-top: 1em;
+    text-align: left;
+}
+
+td {
+    border: 2px solid black;
+    padding:.6em;
+}
+
+th {
+    background-color: purple;
+    padding: .6em;
+    border: 2px solid black;
+    color: white
+}
+
+a {
+    text-decoration: underline;
+}
+
+u{
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid purple;
+    border-radius: 19px; /* This creates a circular border */
+    background-color: purple;
+    color: white; /* Set text color for better contrast */
+    padding: 10px 15px 10px 15px; /* Adjust the padding as needed for the desired size */
+}
